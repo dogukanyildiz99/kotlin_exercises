@@ -5,10 +5,11 @@ fun main() {
 	val randomNumber = diceRange.random()
     	//(1..6).random() is also another way of randomly generating a number between given range
     	println("Random number: ${randomNumber}")
-    	/*Output
-    	Random number: 5
-    	Random number: 2
-    	Random number: 4
-    	...
-    	*/
 }
+
+/*Output
+Random number: 5
+Random number: 2
+Random number: 4
+...
+*/
