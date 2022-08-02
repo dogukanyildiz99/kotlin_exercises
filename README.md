@@ -1,1 +1,1 @@
-# kotlin_exercises
+# Basic kotlin exercises for beginners.
