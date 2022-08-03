@@ -36,5 +36,6 @@ class Dice(private val numSides: Int) {
         return (1..numSides).random()
     }
 }
-//To see the output please check the issues section
-//https://user-images.githubusercontent.com/56637126/182596771-456d1f45-2a64-4492-82b9-3a4d78bbc436.png
+/*To see the output please check the link below
+https://user-images.githubusercontent.com/56637126/182596771-456d1f45-2a64-4492-82b9-3a4d78bbc436.png
+*/
