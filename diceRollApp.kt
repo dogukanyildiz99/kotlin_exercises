@@ -12,12 +12,10 @@ class MainActivity : AppCompatActivity() {
         //Our roll button in the layout of our program
         val rollButton: Button = findViewById(R.id.button)
         //We add a listener to check the interection
-        rollButton.setOnClickListener {
-           rollDice()
-        }
+        rollButton.setOnClickListener { rollDice() }
     }
-    
-//Our roll function
+
+    //Our roll function
     private fun rollDice() {
         //We create a dice with 6 sides
         val dice = Dice(6)
@@ -25,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         val diceRoll = dice.roll()
         //Getting the textView
         val resultTextView: TextView = findViewById(R.id.textView2)
-        //Result of the roll function is an integer so we use toString() method to convert it to a string 
+        //Result of the roll function is an integer so we use toString() method to convert it to a string
         resultTextView.text = diceRoll.toString()
     }
 }
