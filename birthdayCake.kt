@@ -1,12 +1,10 @@
 fun main() {
-
     var age = 24
     var layers = 5
     
     printCakeCandles(age)
     printCakeTop(age)
     printCakeBottom(age, layers)
-
 }
 
 fun printCakeCandles(age: Int) {
