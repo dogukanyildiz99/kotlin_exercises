@@ -9,7 +9,7 @@ fun main() {
 	// You can use with for repeated use of an instance
     with (squareCabin) {
         println("\nSquare Cabin\n============")
-	    println("Capacity: ${capacity}")
+	println("Capacity: ${capacity}")
     	println("Material: ${buildingMaterial}")
     	println("Has room? ${hasRoom()}")
         println("Floor area: ${floorArea()}")
